@@ -1,0 +1,169 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #f4f1ff;
+    color: #1d1633;
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 270px;
+    background: #6b4fa3;
+    color: #fff;
+    min-height: 100vh;
+    padding: 2rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+text-align: center;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.role {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+
+/* MENU */
+.menu ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.menu ul li {
+    margin: 0.7rem 0;
+}
+
+.menu a {
+    color: #c9b6ff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.menu a:hover {
+    color: #e5d4ff;
+}
+
+/* SOCIAL */
+.social {
+    margin-top: auto;
+}
+
+.social a {
+    color: #b9a6ff;
+    margin: 0 0.4rem;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #fff;
+}
+
+/* MAIN CONTENT */
+.content {
+    padding: 2rem 3rem;
+    width: calc(100% - 270px);
+}
+
+.section {
+    margin-bottom: 3rem;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+    color: #4b2e83;
+    margin-bottom: 1rem;
+}
+
+/* CARDS */
+.card {
+    background: #fff;
+    padding: 1rem;
+    border-left: 4px solid #a78bfa;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.meta {
+    color: #7a5abf;
+    font-size: 0.9rem;
+}
+
+/* PROJECTS */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.3rem;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+.project-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    padding: 0.7rem 1rem;
+}
+
+.project-card p {
+    padding: 0 1rem 1rem;
+}
+
+.btn {
+    background: #4b2e83;
+    color: #fff;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.btn:hover {
+    background: #6e47b3;
+}
+
+/* CONTACT */
+.contact-info {
+    margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #b8a1e6;
+}
