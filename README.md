@@ -31,9 +31,9 @@ It applies best practices in HTML structure and CSS styling to produce a visuall
 ## Project Structure
 
 WebDesignProject/
-├── index.html  
-├── css/  
-└── images/  
+- index.html  
+- css/  
+- images/  
 
 ---
 
