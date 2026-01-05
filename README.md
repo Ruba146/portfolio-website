@@ -30,10 +30,10 @@ It applies best practices in HTML structure and CSS styling to produce a visuall
 
 ## Project Structure
 
-WebDesignProject/
+WebDesignProject
 - index.html  
-- css/  
-- images/  
+- css  
+- images  
 
 ---
 
