@@ -40,7 +40,7 @@ WebDesignProject/
 ## How to Run the Project
 
 1. Download or clone the repository  
-git clone https://github.com/Ruba146/Assignment1_ruba-aljenedi_2310807.git  
+git clone https://github.com/Ruba146/portfolio-website.git
 
 2. Open the project  
 Open `index.html` in any modern web browser  
